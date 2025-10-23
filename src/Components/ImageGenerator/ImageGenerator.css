@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 100vh;
+
+    /* background: linear-gradient(135deg, #1e1e1e, #3d3c3c); */
+    /* background-color: #3d3c3c; */
+    background-color: rgb(29, 29, 34);
+}
+
+/* MAIN CONTAINER */
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+    /* background-color: beige; */
+}
+
+/* HEADING */
+
+.hero-header {
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-header p {
+    margin: 0 0 40px 0;
+}
+
+.hero-header span {
+    color: #DE1B89;
+}
+
+
+
+/* CONTENT */
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+    width: 100%;
+}
+
+/* DISPLAY IMAGE */
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    max-width: 60%;
+    height: auto;
+}
+
+.generated-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+
+    /* background-color: beige; */
+}
+
+.input-input {
+    width: 100%;
+    padding: 20px 130px 20px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    outline: none;
+    background: transparent;
+    /* background-color: rgb(57, 57, 57); */
+    color: white;
+}
+
+/* .input-input::placeholder {
+    color: #999;
+} */
+
+.input-button {
+    position: absolute;
+    /* margin-left: -21%; */
+    /* padding: 19px 30px; */
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    padding: 0 25px;
+    border: none;
+    border-radius: 25px;
+    /* background-color: rgb(243, 55, 208); */
+    background-color: #DE1B89;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.input-button:hover {
+    background-color: #c21873;
+    cursor: pointer;
+    /* padding: 5px 25px; */
+    /* outline-width: 5cm;
+    outline: blue; */
+    border: 1px inset rgb(163, 82, 255);
+}
+
+.input-button:active {
+    background-color: #a0155e;
+}
