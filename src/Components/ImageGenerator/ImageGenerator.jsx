@@ -1,8 +1,7 @@
 import React from 'react'
 import { useState, useRef } from 'react';
 
-// import { generateImage } from '../../model2_image_generation';
-import { generateImage } from '../../model1_image_generation';
+import { generateImage } from '../../model_image_generation';
 
 import './ImageGenerator.css'
 import default_image from '../../assets/default_image.png'
