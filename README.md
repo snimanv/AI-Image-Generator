@@ -4,7 +4,7 @@ A front-end React application that allows users to generate stunning AI-generate
 This project provides a dark-themed interface where users can enter text prompts, select from multiple models, and visualize AI-generated artwork in real time.
 
 
-### RUNNING THE APPLICATION:
+### Running the Application:
 1. Clone the repository or Download the ZIP file
 2. Navigate into the project
 3. Install dependencies
