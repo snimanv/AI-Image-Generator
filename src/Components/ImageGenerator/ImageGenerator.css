@@ -47,6 +47,7 @@ body {
 
 
 
+
 /* CONTENT */
 
 .hero-content {
@@ -59,6 +60,11 @@ body {
     width: 100%;
 }
 
+
+
+
+
+
 /* DISPLAY IMAGE */
 
 .image-container {
@@ -66,9 +72,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 20px;
     margin-top: 10px;
-    margin-bottom: 50px;
     max-width: 60%;
     height: auto;
 }
@@ -79,6 +84,72 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
+
+
+
+
+/* LOADING */
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.loading-bar-full {
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(270deg, #DE1B89, #c21873, #a0155e);
+    background-size: 600% 600%;
+    animation: loadingAnimation 2s linear infinite;
+    outline-width: 200px;
+}
+
+.loading-bar {
+    width: 0px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.loading-text-null {
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.loading-text {
+    color: white;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+/* ERROR MSG */
+
+.error-msg {
+    color: #ff4d4d;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    animation: fadeIn 0.4s ease-in;
+}
+
+.error-text {
+  color: #ff6b6b;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+/* INPUT */
 
 .input-container {
     display: flex;
@@ -137,3 +208,5 @@ body {
 .input-button:active {
     background-color: #a0155e;
 }
+
+

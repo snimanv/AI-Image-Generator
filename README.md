@@ -15,5 +15,9 @@ npm install
 # Start the development server
 npm run dev
 
-![alt text](./public/Pics%20(readme)/image2.png)
+![homepage](./public/Pics%20(readme)/image2.png)
+![cat with apple](./public/Pics%20(readme)/image4.png)
 ![cat with apple](./public/Pics%20(readme)/image.png)
+
+### Error handling
+![alt text](./public/Pics%20(readme)/image3.png)
