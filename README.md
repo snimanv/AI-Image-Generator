@@ -7,10 +7,8 @@ This project provides a dark-themed interface where users can enter text prompts
 ### Running the Application:
 1. Clone the repository or Download the ZIP file
 2. Navigate into the project
-3. Install dependencies
-    npm install
-4. Start the development server
-    npm run dev
+3. Install dependencies: npm install
+4. Start the development server: npm run dev
 
 ![alt text](./public/Pics%20(readme)/image2.png)
 ![cat with apple](./public/Pics%20(readme)/image.png)
